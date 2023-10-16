@@ -75,9 +75,9 @@ interface IButtonProps {
 }
 
 const Button = (props: IButtonProps) => {
-  const { IsPrimary, Size, Text, onClick } = props;
+  const { IsPrimary, Size, Text, OnClick } = props;
   return (
-    <StyledButton isPrimary={IsPrimary} size={Size} onClick={onClick}>
+    <StyledButton isPrimary={IsPrimary} size={Size} onClick={OnClick}>
       {Text}
     </StyledButton>
   );
